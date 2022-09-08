@@ -11,6 +11,14 @@
   "license": "ISC",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^1.0.2",
-    "hardhat": "^2.11.1"
+    "hardhat": "^2.11.1",
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "chai": "^4.3.6",
+    "ethers": "^5.6.8"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.3",
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "dotenv": "^16.0.1"
   }
 }
